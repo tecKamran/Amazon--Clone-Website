@@ -255,3 +255,101 @@ footer{
     margin-left: 80px;
     margin-top: 8px;
 }
+
+
+
+/* Media Queries for Responsiveness */
+
+/* For tablets (max-width: 1024px) */
+@media only screen and (max-width: 1024px) {
+    .nav-search {
+        width: 500px;
+    }
+    .panel-ops {
+        width: 90%;
+    }
+    .box {
+        width: 45%;
+    }
+}
+
+/* For small tablets and large phones (max-width: 768px) */
+@media only screen and (max-width: 768px) {
+    .navbar {
+        flex-direction: column;
+        height: auto;
+        padding: 10px 0;
+    }
+    .nav-logo, .nav-search, .nav-cart {
+        margin: 10px 0;
+        width: 100%;
+    }
+    .nav-search {
+        width: 90%;
+    }
+    .panel {
+        flex-direction: column;
+        height: auto;
+        padding: 10px 0;
+    }
+    .panel-ops {
+        width: 100%;
+        text-align: center;
+    }
+    .shop-section {
+        flex-direction: column;
+        align-items: center;
+    }
+    .box {
+        width: 90%;
+    }
+}
+
+/* For mobile devices (max-width: 480px) */
+@media only screen and (max-width: 480px) {
+    .hero-section {
+        height: 250px;
+        background-position: center;
+    }
+    .hero-msg {
+        font-size: 0.75rem;
+        margin-bottom: 20px;
+    }
+    .box-img {
+        height: 200px;
+    }
+    .footpanel2 {
+        flex-direction: column;
+        align-items: center;
+        height: auto;
+    }
+    .footpanel2 ul {
+        margin: 20px 0;
+        text-align: center;
+    }
+    .footpanel3 {
+        flex-direction: column;
+    }
+    .footerlogo {
+        margin: 10px 0;
+    }
+    .footpanel4 p {
+        margin-left: 10px;
+        text-align: center;
+    }
+    .nav-logo {
+        width: 80px;
+        height: 40px;
+    }
+    .logo {
+        height: 40px;
+        width: 80px;
+    }
+    .nav-search {
+        flex-direction: row;
+        width: 100%;
+    }
+    .search-select, .search-input, .search-icon {
+        font-size: 0.85rem;
+    }
+}
